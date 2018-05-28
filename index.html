@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>借乎工作平台</title>
+    <title>飞鸟贷工作平台</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <link rel="stylesheet" href="animate.css">
@@ -14,32 +14,31 @@
         ul{list-style:none}
         ul li{margin-right:26px;display:inline-block}
         body,html{height:100%}
-        body{background: url("images/bg.png") no-repeat;font-family:"Hiragino Sans GB","Microsoft Yahei","WenQuanYi Micro Hei",SimSun,Tahoma,Arial,Helvetica,STHeiti} 
+        body{background: url("images/bg.png") no-repeat;font-family:"Hiragino Sans GB","Microsoft Yahei","WenQuanYi Micro Hei",SimSun,Tahoma,Arial,Helvetica,STHeiti}
         .main{width:1200px;margin:0 auto;padding:30px}
         h1{color:#fff;text-align:center;margin-top:80px;font-size:24px;}
         .logo{display: flex;}
         .header{text-align:center;margin-top:80px;margin-bottom: 100px;}
         .formal-title,.test-title,.uat-title{display:inline-block;box-sizing:border-box;font-size:18px;color:#fff;width:50px;margin:0 20px;width:160px;line-height:60px;cursor:pointer}
-        .title-active{color:#FFE42C;border-bottom:2px solid #FFE42C}
+        .title-active{color:#2CAEE6;border-bottom:2px solid #2CAEE6}
         .list{text-align:center;margin-top:60px;display:none}
         .formal-list{display:block}
         li a{display:inline-block;color:#000;text-align:center;background:url(./images/unselect.png) center center no-repeat;width:180px;height:180px;background-size: 90%;line-height: 180px;color:#fff;font-weight: bold;letter-spacing: 1px;}
-        li a:hover{background:url(./images/jh_bg_select.png) center center no-repeat;background-size: 90%;color:#000;
+        li a:hover{background:url(./images/fnd_bg_select.png) center center no-repeat;background-size: 90%;color:#fff;
             -webkit-animation:mymove 0.2s forwards;
             -moz-animation:mymove 0.2s forwards;
             -ms-animation:mymove 0.2s forwards;
             -o-animation:mymove 0.2s forwards;
             animation:mymove 0.2s forwards;
-        }
+        } 
         .flex{
             flex: 1;
-            height: 140px;
+             height: 140px;
             display: flex;
             justify-content: center;
             align-items:center;
         }
-        @media screen and (max-width:1600px){
-            .header{margin-top:40px}
+        @media screen and (max-width:1600px){.header{margin-top:40px}
             h1{margin-top:30px}
         }
         @media screen and (max-width:1600px){.header{margin-top:40px}
@@ -66,12 +65,12 @@
             to {background-size: 90%;}
         }
         .sss{
-          display: inline-block;
-          width: 100px;
-          height: 100px;
-          overflow:hidden;
-          border-radius: 50%;
-      }
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            overflow:hidden;
+            border-radius: 50%;
+        }
     </style>
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
@@ -79,17 +78,17 @@
 <body>
   <div class="main">
     <div class="logo">
-       <div class="jh-icon flex">
-            <img src="images/jh_select.png" width="120"  title="借乎">
-        </div>
-        <div class="fnd-icon flex">
-            <a href="index-fnd.html">
-                <img src="images/fnd_unselect.png" width="100"  title="飞鸟贷">
+      <!--   <div class="jh-icon flex">
+            <a href="index.html">
+                <img src="images/jh_unselect.png" width="100" title="借乎">
             </a>
+        </div> -->
+        <div class="fnd-icon flex">
+            <img src="images/fnd_select.png" width="120"  title="飞鸟贷">
         </div>
         <div class="jw-icon flex">
             <a href="index-jiewo.html">
-                <img src="images/jw_unselect.png"  width="100"  title="借我">
+                <img src="images/jw_unselect.png"  width="100" title="借我">
             </a>
         </div>
         <div class="jw-icon flex">
@@ -102,20 +101,24 @@
                 <img src="images/xj.png"  width="100"  title="闲机">
             </a>
         </div>
-        <div class="jw-icon flex">
+        <div class="jw-icon flex">  
             <a href="index-go.html" class="sss">
                 <img src="images/jytz.png?v=5"  width="100"  title="金鱼塘主">
             </a>
         </div>
-
         <div class="jw-icon flex">
             <a href="index-peppa.html" class="sss">
                 <img src="images/LOGO4-1-1@2x.png"  width="100"  title="小租佩奇">
             </a>
         </div>
-        
+
+         <div class="jw-icon flex">
+             <a href="index-heppa.html" class="sss">
+                <img src="images/heppa-logo.png"  width="100"  title="大租佩奇">
+             </a>
+        </div>
     </div>
-    <h1>借乎工作平台</h1>
+    <h1>飞鸟贷工作平台</h1>
     <div class="header">
       <div class="formal-title title-active">正式环境</div>
       <div class="uat-title">UAT环境</div>
@@ -123,25 +126,25 @@
     </div>
     <div class="list formal-list">
       <ul>
-        <li><a target="_blank" href="http://www.vjiehu.com">借乎PC</a></li>
-        <li><a target="_blank" href="https://m.vjiehu.com/jiehu/index.html">微信H5</a></li>
-        <li><a target="_blank" href="https://admin.vjiehu.com">运营平台</a></li>
-        <li><a target="_blank" href="http://report.vjiehu.com">数据统计系统</a></li>
-        <li><a target="_blank" href="http://qd.vjiehu.com">外部渠道管理</a></li>
+        <li><a target="_blank" href="https://www.flyfnd.com">飞鸟贷PC</a></li>
+        <li><a target="_blank" href="https://m.flyfnd.com/fnd/index.html">微信H5</a></li>
+        <li><a target="_blank" href="https://admin.flyfnd.com">运营平台</a></li>
+        <li><a target="_blank" href="https://report.flyfnd.com">数据统计系统</a></li>
+        <li><a target="_blank" href="https://qd.flyfnd.com">外部渠道管理</a></li>
       </ul>
     </div>
     <div class="list uat-list">
       <ul>
-          <li><a target="_blank" href="http://www.vjiehu.com">借乎PC</a></li>
-          <li><a target="_blank" href="https://m-uat.vjiehu.com/jiehu/index.html">微信H5</a></li>
-          <li><a target="_blank" href="http://admin-uat.vjiehu.com">运营平台</a></li>
-          <li><a target="_blank" href="http://report-uat.vjiehu.com">数据统计系统</a></li>
-          <li><a target="_blank" href="http://qd-uat.vjiehu.com">外部渠道管理</a></li>
+          <li><a target="_blank" href="https://www.flyfnd.com">飞鸟贷PC</a></li>
+          <li><a target="_blank" href="https://m-uat.flyfnd.com/fnd/index.html">微信H5</a></li>
+          <li><a target="_blank" href="https://admin-uat.flyfnd.com">运营平台</a></li>
+          <li><a target="_blank" href="https://report-uat.flyfnd.com">数据统计系统</a></li>
+          <li><a target="_blank" href="https://qd-uat.flyfnd.com">外部渠道管理</a></li>
       </ul>
     </div>
     <div class="list test-list">
       <ul>
-          <li><a target="_blank" href="http://www.vjiehu.com">借乎PC</a></li>
+          <li><a target="_blank" href="#">飞鸟贷PC</a></li>
           <li><a target="_blank" href="#">微信H5</a></li>
           <li><a target="_blank" href="#">运营平台</a></li>
           <li><a target="_blank" href="#">数据统计系统</a></li>
@@ -151,15 +154,14 @@
   </div>
   <script>
     // 正式环境点击
-    document.getElementsByClassName('formal-title')[0].onclick=function(e){
-        e.preventDefault();
-        document.getElementsByClassName('formal-title')[0].setAttribute('class','formal-title title-active');
-        document.getElementsByClassName('uat-title')[0].setAttribute('class','uat-title');
-        document.getElementsByClassName('test-title')[0].setAttribute('class','test-title');
-        document.getElementsByClassName('formal-list')[0].style.display='block';
-        document.getElementsByClassName('uat-list')[0].style.display='none';
-        document.getElementsByClassName('test-list')[0].style.display='none';
-        ani('.formal-list li');
+    document.getElementsByClassName('formal-title')[0].onclick=function(){
+      document.getElementsByClassName('formal-title')[0].setAttribute('class','formal-title title-active');
+      document.getElementsByClassName('uat-title')[0].setAttribute('class','uat-title');
+      document.getElementsByClassName('test-title')[0].setAttribute('class','test-title');
+      document.getElementsByClassName('formal-list')[0].style.display='block';
+      document.getElementsByClassName('uat-list')[0].style.display='none';
+      document.getElementsByClassName('test-list')[0].style.display='none';
+      ani(".formal-list li");
     }
     // uat环境
     document.getElementsByClassName('uat-title')[0].onclick=function(){
@@ -169,7 +171,7 @@
       document.getElementsByClassName('formal-list')[0].style.display='none';
       document.getElementsByClassName('uat-list')[0].style.display='block';
       document.getElementsByClassName('test-list')[0].style.display='none';
-      ani('.uat-list li');
+      ani(".uat-list li");
     }
     // 测试环境
     document.getElementsByClassName('test-title')[0].onclick=function(){
@@ -179,10 +181,8 @@
       document.getElementsByClassName('formal-list')[0].style.display='none';
       document.getElementsByClassName('uat-list')[0].style.display='none';
       document.getElementsByClassName('test-list')[0].style.display='block';
-
-      ani('.test-list li');
+      ani(".test-list li");
     }
-
 
     function ani(selector){
        setTimeout(function(){
@@ -191,8 +191,6 @@
             });
         },100); 
     }
-
-    
   </script>
 </body>
 
