@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>飞鸟贷工作平台</title>
+    <title小租佩奇工作平台</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <link rel="stylesheet" href="animate.css">
@@ -20,17 +20,17 @@
         .logo{display: flex;}
         .header{text-align:center;margin-top:80px;margin-bottom: 100px;}
         .formal-title,.test-title,.uat-title{display:inline-block;box-sizing:border-box;font-size:18px;color:#fff;width:50px;margin:0 20px;width:160px;line-height:60px;cursor:pointer}
-        .title-active{color:#2CAEE6;border-bottom:2px solid #2CAEE6}
+        .title-active{color:#E33881;border-bottom:2px solid #E33881}
         .list{text-align:center;margin-top:60px;display:none}
         .formal-list{display:block}
         li a{display:inline-block;color:#000;text-align:center;background:url(./images/unselect.png) center center no-repeat;width:180px;height:180px;background-size: 90%;line-height: 180px;color:#fff;font-weight: bold;letter-spacing: 1px;}
-        li a:hover{background:url(./images/fnd_bg_select.png) center center no-repeat;background-size: 90%;color:#fff;
+        li a:hover{background:url(./images/bj-heppa.png) center center no-repeat;background-size: 90%;color:#fff;
             -webkit-animation:mymove 0.2s forwards;
             -moz-animation:mymove 0.2s forwards;
             -ms-animation:mymove 0.2s forwards;
             -o-animation:mymove 0.2s forwards;
             animation:mymove 0.2s forwards;
-        } 
+        }
         .flex{
             flex: 1;
              height: 140px;
@@ -71,6 +71,13 @@
             overflow:hidden;
             border-radius: 50%;
         }
+        .current{
+            display: inline-block;
+            width: 120px;
+            height: 120px;
+            overflow:hidden;
+            border-radius: 50%;
+        }
     </style>
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
@@ -78,23 +85,25 @@
 <body>
   <div class="main">
     <div class="logo">
-        <div class="jh-icon flex">
+      <!--   <div class="jh-icon flex">
             <a href="index.html">
-                <img src="images/jh_unselect.png" width="100" title="借乎">
+                <img src="images/jh_unselect.png" width="100"  title="借乎">
             </a>
-        </div>
+        </div> -->
         <div class="fnd-icon flex">
-            <img src="images/fnd_select.png" width="120"  title="飞鸟贷">
+            <a href="index.html">
+                <img src="images/fnd_unselect.png" width="100" title="飞鸟贷">
+            </a>
         </div>
         <div class="jw-icon flex">
             <a href="index-jiewo.html">
-                <img src="images/jw_unselect.png"  width="100" title="借我">
+                <img src="images/jw_select.png"  width="100" title="借我">
             </a>
         </div>
         <div class="jw-icon flex">
             <a href="index-thz.html">
                 <img src="images/taohuazhai.png"  width="100"  title="淘花宅">
-            </a>
+            </a>    
         </div>
         <div class="jw-icon flex">
             <a href="index-xj.html">
@@ -106,13 +115,17 @@
                 <img src="images/jytz.png?v=5"  width="100"  title="金鱼塘主">
             </a>
         </div>
+
         <div class="jw-icon flex">
             <a href="index-peppa.html" class="sss">
-                <img src="images/LOGO4-1-1@2x.png"  width="100"  title="小租佩奇">
+              <img src="images/LOGO4-1-1@2x.png"  width="100"  title="小租佩奇">
             </a>
         </div>
+         <div class="jw-icon flex">
+            <span class="current"><img src="images/heppa-logo.png"  width="120"  title="大租佩奇"></span>
+        </div>
     </div>
-    <h1>飞鸟贷工作平台</h1>
+    <h1>大租佩奇工作平台</h1>
     <div class="header">
       <div class="formal-title title-active">正式环境</div>
       <div class="uat-title">UAT环境</div>
@@ -120,42 +133,42 @@
     </div>
     <div class="list formal-list">
       <ul>
-        <li><a target="_blank" href="https://www.flyfnd.com">飞鸟贷PC</a></li>
-        <li><a target="_blank" href="https://m.flyfnd.com/fnd/index.html">微信H5</a></li>
-        <li><a target="_blank" href="https://admin.flyfnd.com">运营平台</a></li>
-        <li><a target="_blank" href="https://report.flyfnd.com">数据统计系统</a></li>
-        <li><a target="_blank" href="https://qd.flyfnd.com">外部渠道管理</a></li>
+        <li><a target="_blank" href="http://www.qingruiglobal.com">大租佩奇PC</a></li>
+        <li><a target="_blank" href="https://heppa.vjiehu.com/heppa/index">微信H5</a></li>
+        <li><a target="_blank" href="https://heppaadmin.vjiehu.com">运营平台</a></li>
+        <li><a target="_blank" href="https://heppareport.vjiehu.com">数据统计系统</a></li>
+        <li><a target="_blank" href="https://heppaqd.vjiehu.com">外部渠道管理</a></li>
       </ul>
     </div>
     <div class="list uat-list">
       <ul>
-          <li><a target="_blank" href="https://www.flyfnd.com">飞鸟贷PC</a></li>
-          <li><a target="_blank" href="https://m-uat.flyfnd.com/fnd/index.html">微信H5</a></li>
-          <li><a target="_blank" href="https://admin-uat.flyfnd.com">运营平台</a></li>
-          <li><a target="_blank" href="https://report-uat.flyfnd.com">数据统计系统</a></li>
-          <li><a target="_blank" href="https://qd-uat.flyfnd.com">外部渠道管理</a></li>
+          <li><a target="_blank" href="javascript:;" title="暂无大租佩奇PC">大租佩奇PC</a></li>
+          <li><a target="_blank" href="javascript:;">微信H5</a></li>
+          <li><a target="_blank" href="javascript:;">运营平台</a></li>
+          <li><a target="_blank" href="javascript:;">数据统计系统</a></li>
+          <li><a target="_blank" href="javascript:;" title="暂无外部渠道管理">外部渠道管理</a></li>
       </ul>
     </div>
     <div class="list test-list">
       <ul>
-          <li><a target="_blank" href="#">飞鸟贷PC</a></li>
-          <li><a target="_blank" href="#">微信H5</a></li>
-          <li><a target="_blank" href="#">运营平台</a></li>
-          <li><a target="_blank" href="#">数据统计系统</a></li>
-          <li><a target="_blank" href="#">外部渠道管理</a></li>
+          <li><a href="javascript:;">大租佩奇PC</a></li>
+          <li><a href="javascript:;">微信H5</a></li>
+          <li><a href="javascript:;">运营平台</a></li>
+          <li><a href="javascript:;">数据统计系统</a></li>
+          <li><a href="javascript:;">外部渠道管理</a></li>
       </ul>
     </div>
   </div>
   <script>
     // 正式环境点击
     document.getElementsByClassName('formal-title')[0].onclick=function(){
-      document.getElementsByClassName('formal-title')[0].setAttribute('class','formal-title title-active');
-      document.getElementsByClassName('uat-title')[0].setAttribute('class','uat-title');
-      document.getElementsByClassName('test-title')[0].setAttribute('class','test-title');
-      document.getElementsByClassName('formal-list')[0].style.display='block';
-      document.getElementsByClassName('uat-list')[0].style.display='none';
-      document.getElementsByClassName('test-list')[0].style.display='none';
-      ani(".formal-list li");
+        document.getElementsByClassName('formal-title')[0].setAttribute('class','formal-title title-active');
+        document.getElementsByClassName('uat-title')[0].setAttribute('class','uat-title');
+        document.getElementsByClassName('test-title')[0].setAttribute('class','test-title');
+        document.getElementsByClassName('formal-list')[0].style.display='block';
+        document.getElementsByClassName('uat-list')[0].style.display='none';
+        document.getElementsByClassName('test-list')[0].style.display='none';
+        ani(".formal-list li");
     }
     // uat环境
     document.getElementsByClassName('uat-title')[0].onclick=function(){
